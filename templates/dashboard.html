@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CyberSOC Dashboard</title>
+</head>
+<body>
+  <h1>🚨 CyberSOC Alert Dashboard</h1>
+
+  <h2>📌 Indicators of Compromise (IOCs)</h2>
+  <ul>
+    {% for ioc in iocs %}
+      <li>{{ ioc }}</li>
+    {% endfor %}
+  </ul>
+
+  <h2>📝 Findings</h2>
+  <ul>
+    {% for finding in findings %}
+      <li>{{ finding }}</li>
+    {% endfor %}
+  </ul>
+
+  <h2>📊 Timeline</h2>
+  <table border="1">
+    <tr>
+      <th>Timestamp</th>
+      <th>Description</th>
+    </tr>
+    {% for event in timeline %}
+    <tr>
+      <td>{{ event.timestamp }}</td>
+      <td>{{ event.description }}</td>
+    </tr>
+    {% endfor %}
+  </table>
+</body>
+</html>
+
+
+

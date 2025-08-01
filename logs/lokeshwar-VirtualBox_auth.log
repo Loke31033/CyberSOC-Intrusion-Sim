@@ -1,0 +1,585 @@
+2025-05-26T11:18:22.162296+00:00 lokeshwar-VirtualBox systemd-logind[793]: New seat seat0.
+2025-05-26T11:18:22.162301+00:00 lokeshwar-VirtualBox systemd-logind[793]: Watching system buttons on /dev/input/event0 (Power Button)
+2025-05-26T11:18:22.162306+00:00 lokeshwar-VirtualBox systemd-logind[793]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2025-05-26T11:18:22.162311+00:00 lokeshwar-VirtualBox systemd-logind[793]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2025-05-26T11:18:22.162341+00:00 lokeshwar-VirtualBox polkitd[765]: Loading rules from directory /etc/polkit-1/rules.d
+2025-05-26T11:18:22.162345+00:00 lokeshwar-VirtualBox polkitd[765]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-05-26T11:18:22.042514+00:00 lokeshwar-VirtualBox polkitd[765]: Finished loading, compiling and executing 16 rules
+2025-05-26T11:18:22.043063+00:00 lokeshwar-VirtualBox polkitd[765]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2025-05-26T11:18:30.593128+00:00 lokeshwar-VirtualBox useradd[1181]: new group: name=lokeshwar, GID=1000
+2025-05-26T11:18:30.597210+00:00 lokeshwar-VirtualBox useradd[1181]: new user: name=lokeshwar, UID=1000, GID=1000, home=/home/lokeshwar, shell=/bin/bash, from=none
+2025-05-26T11:18:30.598878+00:00 lokeshwar-VirtualBox useradd[1181]: add 'lokeshwar' to group 'adm'
+2025-05-26T11:18:30.599043+00:00 lokeshwar-VirtualBox useradd[1181]: add 'lokeshwar' to group 'cdrom'
+2025-05-26T11:18:30.599084+00:00 lokeshwar-VirtualBox useradd[1181]: add 'lokeshwar' to group 'sudo'
+2025-05-26T11:18:30.599144+00:00 lokeshwar-VirtualBox useradd[1181]: add 'lokeshwar' to group 'dip'
+2025-05-26T11:18:30.599214+00:00 lokeshwar-VirtualBox useradd[1181]: add 'lokeshwar' to group 'plugdev'
+2025-05-26T11:18:30.599251+00:00 lokeshwar-VirtualBox useradd[1181]: add 'lokeshwar' to group 'users'
+2025-05-26T11:18:30.599287+00:00 lokeshwar-VirtualBox useradd[1181]: add 'lokeshwar' to group 'lpadmin'
+2025-05-26T11:18:30.599316+00:00 lokeshwar-VirtualBox useradd[1181]: add 'lokeshwar' to shadow group 'adm'
+2025-05-26T11:18:30.599345+00:00 lokeshwar-VirtualBox useradd[1181]: add 'lokeshwar' to shadow group 'cdrom'
+2025-05-26T11:18:30.602201+00:00 lokeshwar-VirtualBox useradd[1181]: add 'lokeshwar' to shadow group 'sudo'
+2025-05-26T11:18:30.602378+00:00 lokeshwar-VirtualBox useradd[1181]: add 'lokeshwar' to shadow group 'dip'
+2025-05-26T11:18:30.602418+00:00 lokeshwar-VirtualBox useradd[1181]: add 'lokeshwar' to shadow group 'plugdev'
+2025-05-26T11:18:30.602456+00:00 lokeshwar-VirtualBox useradd[1181]: add 'lokeshwar' to shadow group 'users'
+2025-05-26T11:18:30.602534+00:00 lokeshwar-VirtualBox useradd[1181]: add 'lokeshwar' to shadow group 'lpadmin'
+2025-05-26T11:18:30.956480+00:00 lokeshwar-VirtualBox passwd[1192]: password for 'lokeshwar' changed by 'root'
+2025-05-26T11:18:40.351106+00:00 lokeshwar-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2025-05-26T11:18:40.399877+00:00 lokeshwar-VirtualBox systemd-logind[793]: New session c1 of user gdm.
+2025-05-26T11:18:40.666255+00:00 lokeshwar-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2025-05-26T11:18:50.847201+00:00 lokeshwar-VirtualBox polkitd[765]: Registered Authentication Agent for unix-session:c1 (system bus name :1.42 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-05-26T11:19:22.713139+00:00 lokeshwar-VirtualBox gdm-password]: gkr-pam: unable to locate daemon control file
+2025-05-26T11:19:22.713292+00:00 lokeshwar-VirtualBox gdm-password]: gkr-pam: stashed password to try later in open session
+2025-05-26T11:19:22.783574+00:00 lokeshwar-VirtualBox gdm-password]: pam_unix(gdm-password:session): session opened for user lokeshwar(uid=1000) by lokeshwar(uid=0)
+2025-05-26T11:19:22.824035+00:00 lokeshwar-VirtualBox systemd-logind[793]: New session 2 of user lokeshwar.
+2025-05-26T11:19:22.922320+00:00 lokeshwar-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user lokeshwar(uid=1000) by lokeshwar(uid=0)
+2025-05-26T11:19:23.851254+00:00 lokeshwar-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2025-05-26T11:19:25.560055+00:00 lokeshwar-VirtualBox gnome-keyring-daemon[2245]: The Secret Service was already initialized
+2025-05-26T11:19:25.572884+00:00 lokeshwar-VirtualBox gnome-keyring-daemon[2489]: discover_other_daemon: 1
+2025-05-26T11:19:25.573080+00:00 lokeshwar-VirtualBox gnome-keyring-daemon[2245]: The PKCS#11 component was already initialized
+2025-05-26T11:19:25.573571+00:00 lokeshwar-VirtualBox gnome-keyring-daemon[2494]: discover_other_daemon: 1
+2025-05-26T11:19:25.574563+00:00 lokeshwar-VirtualBox gnome-keyring-daemon[2492]: discover_other_daemon: 1
+2025-05-26T11:19:33.717514+00:00 lokeshwar-VirtualBox polkitd[765]: Registered Authentication Agent for unix-session:2 (system bus name :1.84 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-05-26T11:19:38.074823+00:00 lokeshwar-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2025-05-26T11:19:38.173001+00:00 lokeshwar-VirtualBox systemd-logind[793]: Session c1 logged out. Waiting for processes to exit.
+2025-05-26T11:19:38.343957+00:00 lokeshwar-VirtualBox polkitd[765]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.42, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2025-05-26T11:19:38.380787+00:00 lokeshwar-VirtualBox systemd-logind[793]: Removed session c1.
+2025-05-26T11:24:07.661424+00:00 lokeshwar-VirtualBox sudo: pam_unix(sudo:auth): conversation failed
+2025-05-26T11:24:07.673286+00:00 lokeshwar-VirtualBox sudo: pam_unix(sudo:auth): auth could not identify password for [lokeshwar]
+2025-05-26T11:25:01.246146+00:00 lokeshwar-VirtualBox CRON[3736]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-26T11:25:01.257154+00:00 lokeshwar-VirtualBox CRON[3736]: pam_unix(cron:session): session closed for user root
+2025-05-26T11:25:32.040408+00:00 lokeshwar-VirtualBox sudo: pam_unix(sudo:auth): authentication failure; logname=lokeshwar uid=1000 euid=0 tty=/dev/pts/0 ruser=lokeshwar rhost=  user=lokeshwar
+2025-05-26T11:25:50.221863+00:00 lokeshwar-VirtualBox sudo: lokeshwar : TTY=pts/0 ; PWD=/media/lokeshwar/VBox_GAs_7.1.8 ; USER=root ; COMMAND=/usr/bin/apt installbzip2 tar
+2025-05-26T11:25:50.223277+00:00 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lokeshwar(uid=1000)
+2025-05-26T11:25:50.269857+00:00 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-05-26T11:27:01.090868+00:00 lokeshwar-VirtualBox sudo: lokeshwar : TTY=pts/0 ; PWD=/media/lokeshwar/VBox_GAs_7.1.8 ; USER=root ; COMMAND=/usr/bin/apt installbzip2 tar
+2025-05-26T11:27:01.093445+00:00 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lokeshwar(uid=1000)
+2025-05-26T11:27:01.120017+00:00 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-05-26T11:27:31.278530+00:00 lokeshwar-VirtualBox sudo: lokeshwar : TTY=pts/0 ; PWD=/media/lokeshwar/VBox_GAs_7.1.8 ; USER=root ; COMMAND=/usr/bin/apt installbzi p2 tar
+2025-05-26T11:27:31.279244+00:00 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lokeshwar(uid=1000)
+2025-05-26T11:27:31.308452+00:00 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-05-26T11:32:11.862921+00:00 lokeshwar-VirtualBox sudo: lokeshwar : TTY=pts/0 ; PWD=/media/lokeshwar/VBox_GAs_7.1.8 ; USER=root ; COMMAND=/usr/bin/apt update
+2025-05-26T11:32:11.883228+00:00 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lokeshwar(uid=1000)
+2025-05-26T11:32:58.509861+00:00 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-05-26T11:33:21.346704+00:00 lokeshwar-VirtualBox sudo: lokeshwar : TTY=pts/2 ; PWD=/media/lokeshwar/VBox_GAs_7.1.8 ; USER=root ; COMMAND=/usr/bin/apt installbzip2 tar
+2025-05-26T11:33:21.360691+00:00 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lokeshwar(uid=1000)
+2025-05-26T11:33:21.382246+00:00 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-05-26T11:33:51.068025+00:00 lokeshwar-VirtualBox sudo: lokeshwar : TTY=pts/0 ; PWD=/media/lokeshwar/VBox_GAs_7.1.8 ; USER=root ; COMMAND=/usr/bin/apt installbzip2 tar
+2025-05-26T11:33:51.069967+00:00 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lokeshwar(uid=1000)
+2025-05-26T11:33:51.087877+00:00 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-05-26T11:35:01.280417+00:00 lokeshwar-VirtualBox CRON[4151]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-26T11:35:01.290778+00:00 lokeshwar-VirtualBox CRON[4151]: pam_unix(cron:session): session closed for user root
+2025-05-26T11:35:34.555487+00:00 lokeshwar-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by lokeshwar(uid=1000)
+2025-05-26T11:35:34.559612+00:00 lokeshwar-VirtualBox pkexec[4164]: lokeshwar: Executing command [USER=root] [TTY=unknown] [CWD=/home/lokeshwar] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-05-26T11:36:55.490676+00:00 lokeshwar-VirtualBox sudo: lokeshwar : TTY=pts/0 ; PWD=/media/lokeshwar/VBox_GAs_7.1.8 ; USER=root ; COMMAND=/usr/bin/apt installbzip2
+2025-05-26T11:36:55.495207+00:00 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lokeshwar(uid=1000)
+2025-05-26T11:36:55.520146+00:00 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-05-26T11:37:18.789749+00:00 lokeshwar-VirtualBox sudo: lokeshwar : TTY=pts/0 ; PWD=/media/lokeshwar/VBox_GAs_7.1.8 ; USER=root ; COMMAND=/usr/bin/apt install bzip2 tar
+2025-05-26T11:37:18.793918+00:00 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lokeshwar(uid=1000)
+2025-05-26T11:38:14.178731+00:00 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-05-26T11:38:36.222609+00:00 lokeshwar-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by lokeshwar(uid=1000)
+2025-05-26T11:38:36.245090+00:00 lokeshwar-VirtualBox pkexec[4435]: lokeshwar: Executing command [USER=root] [TTY=unknown] [CWD=/home/lokeshwar] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-05-26T11:39:11.711642+00:00 lokeshwar-VirtualBox polkitd[765]: Identity `unix-group:admin' is not valid, ignoring: No UNIX group with name admin: No such file or directory
+2025-05-26T11:39:54.319305+00:00 lokeshwar-VirtualBox polkitd[765]: Operator of unix-session:2 successfully authenticated as unix-user:lokeshwar to gain ONE-SHOT authorization for action org.freedesktop.policykit.exec for unix-process:4462:127531 [/bin/sh /media/lokeshwar/VBox_GAs_7.1.8/runasroot.sh --has-terminal VirtualBox Guest Additions installation /bin/sh /media/lokeshwar/VBox\_GAs\_7\.1\.8/VBoxLinuxAdditions\.run --xwin Please try running "/media/lokeshwar/VBox_GAs_7.1.8/VBoxLinuxAdditions.run" manually.] (owned by unix-user:lokeshwar)
+2025-05-26T11:39:54.330458+00:00 lokeshwar-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by lokeshwar(uid=1000)
+2025-05-26T11:39:54.337553+00:00 lokeshwar-VirtualBox pkexec[4468]: lokeshwar: Executing command [USER=root] [TTY=/dev/pts/1] [CWD=/media/lokeshwar/VBox_GAs_7.1.8] [COMMAND=/bin/sh /media/lokeshwar/VBox_GAs_7.1.8/VBoxLinuxAdditions.run --xwin]
+2025-05-26T11:40:39.955380+00:00 lokeshwar-VirtualBox useradd[5195]: new user: name=vboxadd, UID=997, GID=1, home=/var/run/vboxadd, shell=/bin/false, from=/dev/pts/1
+2025-05-26T11:40:40.028109+00:00 lokeshwar-VirtualBox useradd[5202]: failed adding user 'vboxadd', exit code: 9
+2025-05-26T11:40:40.228901+00:00 lokeshwar-VirtualBox groupadd[5211]: group added to /etc/group: name=vboxsf, GID=984
+2025-05-26T11:40:40.250076+00:00 lokeshwar-VirtualBox groupadd[5211]: group added to /etc/gshadow: name=vboxsf
+2025-05-26T11:40:40.258631+00:00 lokeshwar-VirtualBox groupadd[5211]: new group: name=vboxsf, GID=984
+2025-05-26T11:40:40.335292+00:00 lokeshwar-VirtualBox groupadd[5218]: group added to /etc/group: name=vboxdrmipc, GID=983
+2025-05-26T11:40:40.355817+00:00 lokeshwar-VirtualBox groupadd[5218]: group added to /etc/gshadow: name=vboxdrmipc
+2025-05-26T11:40:40.364844+00:00 lokeshwar-VirtualBox groupadd[5218]: new group: name=vboxdrmipc, GID=983
+2025-05-26T11:40:52.335691+00:00 lokeshwar-VirtualBox useradd[6142]: failed adding user 'vboxadd', exit code: 9
+2025-05-26T11:40:52.344126+00:00 lokeshwar-VirtualBox useradd[6143]: failed adding user 'vboxadd', exit code: 9
+2025-05-26T11:42:39.694846+00:00 lokeshwar-VirtualBox systemd-logind[793]: The system will reboot now!
+2025-05-26T11:42:39.814263+00:00 lokeshwar-VirtualBox systemd-logind[793]: System is rebooting.
+2025-05-26T11:42:40.130144+00:00 lokeshwar-VirtualBox gdm-password]: pam_unix(gdm-password:session): session closed for user lokeshwar
+2025-05-26T17:12:36.526787+05:30 lokeshwar-VirtualBox systemd-logind[705]: New seat seat0.
+2025-05-26T17:12:36.526792+05:30 lokeshwar-VirtualBox systemd-logind[705]: Watching system buttons on /dev/input/event0 (Power Button)
+2025-05-26T17:12:36.526796+05:30 lokeshwar-VirtualBox systemd-logind[705]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2025-05-26T17:12:36.526809+05:30 lokeshwar-VirtualBox systemd-logind[705]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2025-05-26T17:12:36.878820+05:30 lokeshwar-VirtualBox polkitd[665]: Loading rules from directory /etc/polkit-1/rules.d
+2025-05-26T17:12:36.892233+05:30 lokeshwar-VirtualBox polkitd[665]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-05-26T17:12:37.098132+05:30 lokeshwar-VirtualBox polkitd[665]: Finished loading, compiling and executing 16 rules
+2025-05-26T17:12:37.126511+05:30 lokeshwar-VirtualBox polkitd[665]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2025-05-26T17:13:17.394919+05:30 lokeshwar-VirtualBox useradd[1047]: failed adding user 'vboxadd', exit code: 9
+2025-05-26T17:13:17.406106+05:30 lokeshwar-VirtualBox useradd[1048]: failed adding user 'vboxadd', exit code: 9
+2025-05-26T17:13:23.359816+05:30 lokeshwar-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2025-05-26T17:13:23.456697+05:30 lokeshwar-VirtualBox systemd-logind[705]: New session c1 of user gdm.
+2025-05-26T17:13:23.564192+05:30 lokeshwar-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2025-05-26T17:13:36.107940+05:30 lokeshwar-VirtualBox polkitd[665]: Registered Authentication Agent for unix-session:c1 (system bus name :1.38 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-05-26T17:15:01.598102+05:30 lokeshwar-VirtualBox CRON[2432]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-26T17:15:01.615772+05:30 lokeshwar-VirtualBox CRON[2432]: pam_unix(cron:session): session closed for user root
+2025-05-26T17:15:51.818435+05:30 lokeshwar-VirtualBox gdm-password]: gkr-pam: unable to locate daemon control file
+2025-05-26T17:15:51.818708+05:30 lokeshwar-VirtualBox gdm-password]: gkr-pam: stashed password to try later in open session
+2025-05-26T17:15:51.846190+05:30 lokeshwar-VirtualBox gdm-password]: pam_unix(gdm-password:session): session opened for user lokeshwar(uid=1000) by lokeshwar(uid=0)
+2025-05-26T17:15:51.906868+05:30 lokeshwar-VirtualBox systemd-logind[705]: New session 3 of user lokeshwar.
+2025-05-26T17:15:52.081830+05:30 lokeshwar-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user lokeshwar(uid=1000) by lokeshwar(uid=0)
+2025-05-26T17:15:54.011546+05:30 lokeshwar-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2025-05-26T17:15:56.238955+05:30 lokeshwar-VirtualBox gnome-keyring-daemon[2546]: The Secret Service was already initialized
+2025-05-26T17:15:56.239407+05:30 lokeshwar-VirtualBox gnome-keyring-daemon[2754]: discover_other_daemon: 1
+2025-05-26T17:15:56.246320+05:30 lokeshwar-VirtualBox gnome-keyring-daemon[2546]: The PKCS#11 component was already initialized
+2025-05-26T17:15:56.247948+05:30 lokeshwar-VirtualBox gnome-keyring-daemon[2755]: discover_other_daemon: 1
+2025-05-26T17:15:56.297885+05:30 lokeshwar-VirtualBox gnome-keyring-daemon[2759]: discover_other_daemon: 1
+2025-05-26T17:16:04.554021+05:30 lokeshwar-VirtualBox polkitd[665]: Registered Authentication Agent for unix-session:3 (system bus name :1.75 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-05-26T17:16:08.031991+05:30 lokeshwar-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2025-05-26T17:16:08.118544+05:30 lokeshwar-VirtualBox systemd-logind[705]: Session c1 logged out. Waiting for processes to exit.
+2025-05-26T17:16:08.241362+05:30 lokeshwar-VirtualBox polkitd[665]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.38, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2025-05-26T17:16:08.328365+05:30 lokeshwar-VirtualBox systemd-logind[705]: Removed session c1.
+2025-05-26T17:17:01.629976+05:30 lokeshwar-VirtualBox CRON[3640]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-26T17:17:01.655280+05:30 lokeshwar-VirtualBox CRON[3640]: pam_unix(cron:session): session closed for user root
+2025-05-26T17:17:08.503005+05:30 lokeshwar-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by lokeshwar(uid=1000)
+2025-05-26T17:17:08.508631+05:30 lokeshwar-VirtualBox pkexec[3668]: lokeshwar: Executing command [USER=root] [TTY=unknown] [CWD=/home/lokeshwar] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-05-26T17:25:01.678749+05:30 lokeshwar-VirtualBox CRON[3738]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-26T17:25:01.693745+05:30 lokeshwar-VirtualBox CRON[3738]: pam_unix(cron:session): session closed for user root
+2025-05-26T17:28:45.858278+05:30 lokeshwar-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2025-05-26T17:30:01.721260+05:30 lokeshwar-VirtualBox CRON[3832]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-26T17:30:01.731472+05:30 lokeshwar-VirtualBox CRON[3832]: pam_unix(cron:session): session closed for user root
+2025-05-26T17:35:01.760188+05:30 lokeshwar-VirtualBox CRON[3843]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-05-26T17:35:01.782743+05:30 lokeshwar-VirtualBox CRON[3843]: pam_unix(cron:session): session closed for user root
+2025-05-26T17:38:44.328026+05:30 lokeshwar-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2025-07-20T21:44:13.166083+05:30 lokeshwar-VirtualBox dbus-daemon[638]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2025-07-20T21:45:01.695953+05:30 lokeshwar-VirtualBox CRON[4306]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-20T21:45:01.717563+05:30 lokeshwar-VirtualBox CRON[4306]: pam_unix(cron:session): session closed for user root
+2025-07-20T21:55:01.744489+05:30 lokeshwar-VirtualBox CRON[5827]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-20T21:55:01.759447+05:30 lokeshwar-VirtualBox CRON[5827]: pam_unix(cron:session): session closed for user root
+2025-07-20T22:05:01.809488+05:30 lokeshwar-VirtualBox CRON[5917]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-20T22:05:01.835952+05:30 lokeshwar-VirtualBox CRON[5917]: pam_unix(cron:session): session closed for user root
+2025-07-20T22:15:01.015365+05:30 lokeshwar-VirtualBox CRON[5972]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-20T22:15:01.034381+05:30 lokeshwar-VirtualBox CRON[5972]: pam_unix(cron:session): session closed for user root
+2025-07-20T22:17:01.051664+05:30 lokeshwar-VirtualBox CRON[5987]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-20T22:17:01.070740+05:30 lokeshwar-VirtualBox CRON[5987]: pam_unix(cron:session): session closed for user root
+2025-07-20T22:17:42.651078+05:30 lokeshwar-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2025-07-20T22:19:28.995051+05:30 lokeshwar-VirtualBox sudo: lokeshwar : TTY=pts/0 ; PWD=/home/lokeshwar ; USER=root ; COMMAND=/usr/bin/apt update
+2025-07-20T22:19:29.001240+05:30 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lokeshwar(uid=1000)
+2025-07-20T22:20:05.752391+05:30 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-07-20T22:20:40.340431+05:30 lokeshwar-VirtualBox sudo: lokeshwar : TTY=pts/0 ; PWD=/home/lokeshwar ; USER=root ; COMMAND=/usr/bin/apt install git
+2025-07-20T22:20:40.346079+05:30 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lokeshwar(uid=1000)
+2025-07-20T22:21:09.459067+05:30 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-07-20T22:22:08.345648+05:30 lokeshwar-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by lokeshwar(uid=1000)
+2025-07-20T22:22:08.354112+05:30 lokeshwar-VirtualBox pkexec[6615]: lokeshwar: Executing command [USER=root] [TTY=unknown] [CWD=/home/lokeshwar] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-07-20T22:23:02.421734+05:30 lokeshwar-VirtualBox sudo: lokeshwar : TTY=pts/0 ; PWD=/home/lokeshwar ; USER=root ; COMMAND=/usr/bin/apt upgrade -y
+2025-07-20T22:23:02.424532+05:30 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lokeshwar(uid=1000)
+2025-07-20T22:23:55.205443+05:30 lokeshwar-VirtualBox sudo: lokeshwar : TTY=pts/2 ; PWD=/home/lokeshwar ; USER=root ; COMMAND=/usr/bin/apt remove git
+2025-07-20T22:23:55.219464+05:30 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lokeshwar(uid=1000)
+2025-07-20T22:24:11.496318+05:30 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-07-20T22:25:01.100123+05:30 lokeshwar-VirtualBox CRON[6777]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-20T22:25:01.112355+05:30 lokeshwar-VirtualBox CRON[6777]: pam_unix(cron:session): session closed for user root
+2025-07-20T22:26:14.478264+05:30 lokeshwar-VirtualBox sudo: lokeshwar : TTY=pts/2 ; PWD=/home/lokeshwar ; USER=root ; COMMAND=/usr/bin/apt search git
+2025-07-20T22:26:14.479739+05:30 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lokeshwar(uid=1000)
+2025-07-20T22:26:15.999766+05:30 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-07-20T22:27:34.959861+05:30 lokeshwar-VirtualBox sudo: lokeshwar : TTY=pts/2 ; PWD=/home/lokeshwar ; USER=root ; COMMAND=/usr/bin/apt --list
+2025-07-20T22:27:34.973832+05:30 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lokeshwar(uid=1000)
+2025-07-20T22:27:34.996980+05:30 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-07-20T22:28:22.647225+05:30 lokeshwar-VirtualBox sudo: lokeshwar : TTY=pts/2 ; PWD=/home/lokeshwar ; USER=root ; COMMAND=/usr/bin/apt list --installed
+2025-07-20T22:28:22.660118+05:30 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lokeshwar(uid=1000)
+2025-07-20T22:28:23.687543+05:30 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-07-20T22:28:34.828231+05:30 lokeshwar-VirtualBox sudo: lokeshwar : TTY=pts/2 ; PWD=/home/lokeshwar ; USER=root ; COMMAND=/usr/bin/apt list
+2025-07-20T22:28:34.836323+05:30 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lokeshwar(uid=1000)
+2025-07-20T22:28:39.172077+05:30 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-07-20T22:30:01.186893+05:30 lokeshwar-VirtualBox CRON[6814]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-20T22:30:01.199320+05:30 lokeshwar-VirtualBox CRON[6814]: pam_unix(cron:session): session closed for user root
+2025-07-20T22:30:09.590745+05:30 lokeshwar-VirtualBox sudo: lokeshwar : TTY=pts/2 ; PWD=/home/lokeshwar ; USER=root ; COMMAND=/usr/bin/apt show git
+2025-07-20T22:30:09.593172+05:30 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lokeshwar(uid=1000)
+2025-07-20T22:30:09.988748+05:30 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-07-20T22:35:01.270829+05:30 lokeshwar-VirtualBox CRON[6828]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-20T22:35:01.313741+05:30 lokeshwar-VirtualBox CRON[6828]: pam_unix(cron:session): session closed for user root
+2025-07-20T22:44:06.932879+05:30 lokeshwar-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2025-07-20T22:45:01.349983+05:30 lokeshwar-VirtualBox CRON[9936]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-20T22:45:01.377393+05:30 lokeshwar-VirtualBox CRON[9936]: pam_unix(cron:session): session closed for user root
+2025-07-20T22:45:01.780613+05:30 lokeshwar-VirtualBox polkitd[665]: Reloading rules
+2025-07-20T22:45:01.802041+05:30 lokeshwar-VirtualBox polkitd[665]: Collecting garbage unconditionally...
+2025-07-20T22:45:01.804785+05:30 lokeshwar-VirtualBox polkitd[665]: Loading rules from directory /etc/polkit-1/rules.d
+2025-07-20T22:45:01.806075+05:30 lokeshwar-VirtualBox polkitd[665]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-07-20T22:45:01.822182+05:30 lokeshwar-VirtualBox polkitd[665]: Finished loading, compiling and executing 16 rules
+2025-07-20T22:45:01.822579+05:30 lokeshwar-VirtualBox polkitd[665]: Reloading rules
+2025-07-20T22:45:01.822733+05:30 lokeshwar-VirtualBox polkitd[665]: Collecting garbage unconditionally...
+2025-07-20T22:45:01.822777+05:30 lokeshwar-VirtualBox polkitd[665]: Loading rules from directory /etc/polkit-1/rules.d
+2025-07-20T22:45:01.822813+05:30 lokeshwar-VirtualBox polkitd[665]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-07-20T22:45:01.826435+05:30 lokeshwar-VirtualBox polkitd[665]: Finished loading, compiling and executing 16 rules
+2025-07-20T22:46:02.172314+05:30 lokeshwar-VirtualBox polkitd[665]: Reloading rules
+2025-07-20T22:46:02.173044+05:30 lokeshwar-VirtualBox polkitd[665]: Collecting garbage unconditionally...
+2025-07-20T22:46:02.173225+05:30 lokeshwar-VirtualBox polkitd[665]: Loading rules from directory /etc/polkit-1/rules.d
+2025-07-20T22:46:02.173430+05:30 lokeshwar-VirtualBox polkitd[665]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-07-20T22:46:02.193401+05:30 lokeshwar-VirtualBox polkitd[665]: Finished loading, compiling and executing 16 rules
+2025-07-20T22:46:02.194329+05:30 lokeshwar-VirtualBox polkitd[665]: Reloading rules
+2025-07-20T22:46:02.194970+05:30 lokeshwar-VirtualBox polkitd[665]: Collecting garbage unconditionally...
+2025-07-20T22:46:02.195017+05:30 lokeshwar-VirtualBox polkitd[665]: Loading rules from directory /etc/polkit-1/rules.d
+2025-07-20T22:46:02.195052+05:30 lokeshwar-VirtualBox polkitd[665]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-07-20T22:46:02.201979+05:30 lokeshwar-VirtualBox polkitd[665]: Finished loading, compiling and executing 16 rules
+2025-07-20T22:47:09.076783+05:30 lokeshwar-VirtualBox polkitd[665]: Reloading rules
+2025-07-20T22:47:09.079700+05:30 lokeshwar-VirtualBox polkitd[665]: Collecting garbage unconditionally...
+2025-07-20T22:47:09.082547+05:30 lokeshwar-VirtualBox polkitd[665]: Loading rules from directory /etc/polkit-1/rules.d
+2025-07-20T22:47:09.085972+05:30 lokeshwar-VirtualBox polkitd[665]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-07-20T22:47:09.102593+05:30 lokeshwar-VirtualBox polkitd[665]: Finished loading, compiling and executing 16 rules
+2025-07-20T22:47:09.102714+05:30 lokeshwar-VirtualBox polkitd[665]: Reloading rules
+2025-07-20T22:47:09.102750+05:30 lokeshwar-VirtualBox polkitd[665]: Collecting garbage unconditionally...
+2025-07-20T22:47:09.102990+05:30 lokeshwar-VirtualBox polkitd[665]: Loading rules from directory /etc/polkit-1/rules.d
+2025-07-20T22:47:09.103444+05:30 lokeshwar-VirtualBox polkitd[665]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-07-20T22:47:09.138117+05:30 lokeshwar-VirtualBox polkitd[665]: Finished loading, compiling and executing 16 rules
+2025-07-20T22:47:22.007145+05:30 lokeshwar-VirtualBox polkitd[665]: Reloading rules
+2025-07-20T22:47:22.047922+05:30 lokeshwar-VirtualBox polkitd[665]: Collecting garbage unconditionally...
+2025-07-20T22:47:22.048238+05:30 lokeshwar-VirtualBox polkitd[665]: Loading rules from directory /etc/polkit-1/rules.d
+2025-07-20T22:47:22.048359+05:30 lokeshwar-VirtualBox polkitd[665]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-07-20T22:47:22.124889+05:30 lokeshwar-VirtualBox polkitd[665]: Finished loading, compiling and executing 16 rules
+2025-07-20T22:47:22.125098+05:30 lokeshwar-VirtualBox polkitd[665]: Reloading rules
+2025-07-20T22:47:22.125266+05:30 lokeshwar-VirtualBox polkitd[665]: Collecting garbage unconditionally...
+2025-07-20T22:47:22.145771+05:30 lokeshwar-VirtualBox polkitd[665]: Loading rules from directory /etc/polkit-1/rules.d
+2025-07-20T22:47:22.145950+05:30 lokeshwar-VirtualBox polkitd[665]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-07-20T22:47:22.146045+05:30 lokeshwar-VirtualBox polkitd[665]: Finished loading, compiling and executing 16 rules
+2025-07-20T22:47:33.923847+05:30 lokeshwar-VirtualBox polkitd[665]: Reloading rules
+2025-07-20T22:47:33.924692+05:30 lokeshwar-VirtualBox polkitd[665]: Collecting garbage unconditionally...
+2025-07-20T22:47:33.924746+05:30 lokeshwar-VirtualBox polkitd[665]: Loading rules from directory /etc/polkit-1/rules.d
+2025-07-20T22:47:33.924787+05:30 lokeshwar-VirtualBox polkitd[665]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-07-20T22:47:33.936385+05:30 lokeshwar-VirtualBox polkitd[665]: Finished loading, compiling and executing 16 rules
+2025-07-20T22:47:33.937374+05:30 lokeshwar-VirtualBox polkitd[665]: Reloading rules
+2025-07-20T22:47:33.937999+05:30 lokeshwar-VirtualBox polkitd[665]: Collecting garbage unconditionally...
+2025-07-20T22:47:33.938049+05:30 lokeshwar-VirtualBox polkitd[665]: Loading rules from directory /etc/polkit-1/rules.d
+2025-07-20T22:47:33.938214+05:30 lokeshwar-VirtualBox polkitd[665]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-07-20T22:47:33.948559+05:30 lokeshwar-VirtualBox polkitd[665]: Finished loading, compiling and executing 16 rules
+2025-07-20T22:47:34.536613+05:30 lokeshwar-VirtualBox polkitd[665]: Reloading rules
+2025-07-20T22:47:34.541431+05:30 lokeshwar-VirtualBox polkitd[665]: Collecting garbage unconditionally...
+2025-07-20T22:47:34.542445+05:30 lokeshwar-VirtualBox polkitd[665]: Loading rules from directory /etc/polkit-1/rules.d
+2025-07-20T22:47:34.542723+05:30 lokeshwar-VirtualBox polkitd[665]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-07-20T22:47:34.550450+05:30 lokeshwar-VirtualBox polkitd[665]: Finished loading, compiling and executing 16 rules
+2025-07-20T22:47:34.550600+05:30 lokeshwar-VirtualBox polkitd[665]: Reloading rules
+2025-07-20T22:47:34.550637+05:30 lokeshwar-VirtualBox polkitd[665]: Collecting garbage unconditionally...
+2025-07-20T22:47:34.553608+05:30 lokeshwar-VirtualBox polkitd[665]: Loading rules from directory /etc/polkit-1/rules.d
+2025-07-20T22:47:34.554042+05:30 lokeshwar-VirtualBox polkitd[665]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-07-20T22:47:34.559908+05:30 lokeshwar-VirtualBox polkitd[665]: Finished loading, compiling and executing 16 rules
+2025-07-20T22:49:43.158355+05:30 lokeshwar-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2025-07-20T23:04:37.857314+05:30 lokeshwar-VirtualBox dbus-daemon[638]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2025-07-20T23:05:01.285224+05:30 lokeshwar-VirtualBox CRON[23799]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-20T23:05:01.320908+05:30 lokeshwar-VirtualBox CRON[23799]: pam_unix(cron:session): session closed for user root
+2025-07-20T23:05:30.392947+05:30 lokeshwar-VirtualBox dbus-daemon[638]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2025-07-20T23:07:41.626147+05:30 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-07-20T23:07:44.061452+05:30 lokeshwar-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by lokeshwar(uid=1000)
+2025-07-20T23:07:44.066166+05:30 lokeshwar-VirtualBox pkexec[35594]: lokeshwar: Executing command [USER=root] [TTY=unknown] [CWD=/home/lokeshwar] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-07-20T23:14:02.100196+05:30 lokeshwar-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2025-07-20T23:15:01.352440+05:30 lokeshwar-VirtualBox CRON[35689]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-20T23:15:01.368315+05:30 lokeshwar-VirtualBox CRON[35689]: pam_unix(cron:session): session closed for user root
+2025-07-20T23:17:01.385483+05:30 lokeshwar-VirtualBox CRON[35696]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-20T23:17:01.399177+05:30 lokeshwar-VirtualBox CRON[35696]: pam_unix(cron:session): session closed for user root
+2025-07-22T11:03:34.529150+05:30 lokeshwar-VirtualBox systemd-logind[740]: New seat seat0.
+2025-07-22T11:03:34.529216+05:30 lokeshwar-VirtualBox systemd-logind[740]: Watching system buttons on /dev/input/event0 (Power Button)
+2025-07-22T11:03:34.529226+05:30 lokeshwar-VirtualBox systemd-logind[740]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2025-07-22T11:03:34.529239+05:30 lokeshwar-VirtualBox systemd-logind[740]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2025-07-22T11:03:34.838967+05:30 lokeshwar-VirtualBox polkitd[708]: Loading rules from directory /etc/polkit-1/rules.d
+2025-07-22T11:03:34.839313+05:30 lokeshwar-VirtualBox polkitd[708]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-07-22T11:03:35.111175+05:30 lokeshwar-VirtualBox polkitd[708]: Finished loading, compiling and executing 16 rules
+2025-07-22T11:03:35.134426+05:30 lokeshwar-VirtualBox polkitd[708]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2025-07-22T11:16:58.579936+05:30 lokeshwar-VirtualBox useradd[1180]: failed adding user 'vboxadd', exit code: 9
+2025-07-22T11:16:58.602832+05:30 lokeshwar-VirtualBox useradd[1181]: failed adding user 'vboxadd', exit code: 9
+2025-07-22T11:17:01.706191+05:30 lokeshwar-VirtualBox CRON[1565]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-22T11:17:01.763128+05:30 lokeshwar-VirtualBox CRON[1565]: pam_unix(cron:session): session closed for user root
+2025-07-22T11:17:05.972667+05:30 lokeshwar-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2025-07-22T11:17:06.066135+05:30 lokeshwar-VirtualBox systemd-logind[740]: New session c1 of user gdm.
+2025-07-22T11:17:06.193255+05:30 lokeshwar-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2025-07-22T11:17:19.325105+05:30 lokeshwar-VirtualBox polkitd[708]: Registered Authentication Agent for unix-session:c1 (system bus name :1.39 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-07-22T11:17:37.433752+05:30 lokeshwar-VirtualBox gdm-password]: gkr-pam: unable to locate daemon control file
+2025-07-22T11:17:37.434388+05:30 lokeshwar-VirtualBox gdm-password]: gkr-pam: stashed password to try later in open session
+2025-07-22T11:17:37.574677+05:30 lokeshwar-VirtualBox gdm-password]: pam_unix(gdm-password:session): session opened for user lokeshwar(uid=1000) by lokeshwar(uid=0)
+2025-07-22T11:17:37.608763+05:30 lokeshwar-VirtualBox systemd-logind[740]: New session 3 of user lokeshwar.
+2025-07-22T11:17:37.874238+05:30 lokeshwar-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user lokeshwar(uid=1000) by lokeshwar(uid=0)
+2025-07-22T11:17:39.767807+05:30 lokeshwar-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2025-07-22T11:17:42.295404+05:30 lokeshwar-VirtualBox gnome-keyring-daemon[2731]: The PKCS#11 component was already initialized
+2025-07-22T11:17:42.296996+05:30 lokeshwar-VirtualBox gnome-keyring-daemon[2924]: discover_other_daemon: 1
+2025-07-22T11:17:42.307034+05:30 lokeshwar-VirtualBox gnome-keyring-daemon[2731]: The Secret Service was already initialized
+2025-07-22T11:17:42.313006+05:30 lokeshwar-VirtualBox gnome-keyring-daemon[2927]: discover_other_daemon: 1
+2025-07-22T11:17:42.388125+05:30 lokeshwar-VirtualBox gnome-keyring-daemon[2934]: discover_other_daemon: 1
+2025-07-22T11:17:55.295494+05:30 lokeshwar-VirtualBox polkitd[708]: Registered Authentication Agent for unix-session:3 (system bus name :1.77 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-07-22T11:18:01.374882+05:30 lokeshwar-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2025-07-22T11:18:01.538109+05:30 lokeshwar-VirtualBox systemd-logind[740]: Session c1 logged out. Waiting for processes to exit.
+2025-07-22T11:18:01.642607+05:30 lokeshwar-VirtualBox polkitd[708]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.39, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2025-07-22T11:18:01.675600+05:30 lokeshwar-VirtualBox systemd-logind[740]: Removed session c1.
+2025-07-22T11:18:12.214303+05:30 lokeshwar-VirtualBox (sd-pam): pam_unix(systemd-user:session): session closed for user gdm
+2025-07-22T11:19:26.877653+05:30 lokeshwar-VirtualBox sudo: pam_unix(sudo:auth): authentication failure; logname=lokeshwar uid=1000 euid=0 tty=/dev/pts/0 ruser=lokeshwar rhost=  user=lokeshwar
+2025-07-22T11:19:37.832148+05:30 lokeshwar-VirtualBox sudo: lokeshwar : TTY=pts/0 ; PWD=/home/lokeshwar ; USER=root ; COMMAND=/usr/sbin/useradd deepak -m
+2025-07-22T11:19:37.833571+05:30 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lokeshwar(uid=1000)
+2025-07-22T11:19:37.935600+05:30 lokeshwar-VirtualBox useradd[3900]: new group: name=deepak, GID=1001
+2025-07-22T11:19:37.937823+05:30 lokeshwar-VirtualBox useradd[3900]: new user: name=deepak, UID=1001, GID=1001, home=/home/deepak, shell=/bin/sh, from=/dev/pts/1
+2025-07-22T11:19:38.084873+05:30 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-07-22T11:19:52.749550+05:30 lokeshwar-VirtualBox sudo: lokeshwar : TTY=pts/0 ; PWD=/home/lokeshwar ; USER=root ; COMMAND=/usr/bin/su - deepak
+2025-07-22T11:19:52.790158+05:30 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lokeshwar(uid=1000)
+2025-07-22T11:19:52.843971+05:30 lokeshwar-VirtualBox su[3910]: (to deepak) root on pts/1
+2025-07-22T11:19:52.849785+05:30 lokeshwar-VirtualBox su[3910]: pam_unix(su-l:session): session opened for user deepak(uid=1001) by lokeshwar(uid=0)
+2025-07-22T11:20:03.644300+05:30 lokeshwar-VirtualBox su[3910]: pam_unix(su-l:session): session closed for user deepak
+2025-07-22T11:20:03.663161+05:30 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-07-22T11:21:13.106079+05:30 lokeshwar-VirtualBox sudo: lokeshwar : TTY=pts/0 ; PWD=/home/lokeshwar ; USER=root ; COMMAND=/usr/sbin/usermod -s /bin/bash deepak
+2025-07-22T11:21:13.125805+05:30 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lokeshwar(uid=1000)
+2025-07-22T11:21:13.160084+05:30 lokeshwar-VirtualBox usermod[3927]: change user 'deepak' shell from '/bin/sh' to '/bin/bash'
+2025-07-22T11:21:13.194190+05:30 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-07-22T11:21:23.755779+05:30 lokeshwar-VirtualBox sudo: lokeshwar : TTY=pts/0 ; PWD=/home/lokeshwar ; USER=root ; COMMAND=/usr/bin/su - deepak
+2025-07-22T11:21:23.758042+05:30 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lokeshwar(uid=1000)
+2025-07-22T11:21:23.770760+05:30 lokeshwar-VirtualBox su[3936]: (to deepak) root on pts/1
+2025-07-22T11:21:23.818909+05:30 lokeshwar-VirtualBox su[3936]: pam_unix(su-l:session): session opened for user deepak(uid=1001) by lokeshwar(uid=0)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              2025-07-23T13:02:32.206005+05:30 lokeshwar-VirtualBox systemd-logind[713]: New seat seat0.
+2025-07-23T13:02:32.206011+05:30 lokeshwar-VirtualBox systemd-logind[713]: Watching system buttons on /dev/input/event0 (Power Button)
+2025-07-23T13:02:32.206015+05:30 lokeshwar-VirtualBox systemd-logind[713]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2025-07-23T13:02:32.206041+05:30 lokeshwar-VirtualBox systemd-logind[713]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2025-07-23T13:02:32.005152+05:30 lokeshwar-VirtualBox polkitd[691]: Loading rules from directory /etc/polkit-1/rules.d
+2025-07-23T13:02:32.015999+05:30 lokeshwar-VirtualBox polkitd[691]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-07-23T13:02:32.238800+05:30 lokeshwar-VirtualBox polkitd[691]: Finished loading, compiling and executing 16 rules
+2025-07-23T13:02:32.247717+05:30 lokeshwar-VirtualBox polkitd[691]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2025-07-23T13:03:12.413977+05:30 lokeshwar-VirtualBox useradd[1061]: failed adding user 'vboxadd', exit code: 9
+2025-07-23T13:03:12.436428+05:30 lokeshwar-VirtualBox useradd[1062]: failed adding user 'vboxadd', exit code: 9
+2025-07-23T13:03:19.717376+05:30 lokeshwar-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2025-07-23T13:03:19.809028+05:30 lokeshwar-VirtualBox systemd-logind[713]: New session c1 of user gdm.
+2025-07-23T13:03:19.907195+05:30 lokeshwar-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2025-07-23T13:03:48.736536+05:30 lokeshwar-VirtualBox polkitd[691]: Registered Authentication Agent for unix-session:c1 (system bus name :1.40 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-07-23T13:04:12.713590+05:30 lokeshwar-VirtualBox gdm-password]: gkr-pam: unable to locate daemon control file
+2025-07-23T13:04:12.714582+05:30 lokeshwar-VirtualBox gdm-password]: gkr-pam: stashed password to try later in open session
+2025-07-23T13:04:12.752113+05:30 lokeshwar-VirtualBox gdm-password]: pam_unix(gdm-password:session): session opened for user lokeshwar(uid=1000) by lokeshwar(uid=0)
+2025-07-23T13:04:12.846342+05:30 lokeshwar-VirtualBox systemd-logind[713]: New session 2 of user lokeshwar.
+2025-07-23T13:04:13.134705+05:30 lokeshwar-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user lokeshwar(uid=1000) by lokeshwar(uid=0)
+2025-07-23T13:04:14.775104+05:30 lokeshwar-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2025-07-23T13:04:16.880362+05:30 lokeshwar-VirtualBox gnome-keyring-daemon[2652]: The Secret Service was already initialized
+2025-07-23T13:04:16.881247+05:30 lokeshwar-VirtualBox gnome-keyring-daemon[2853]: discover_other_daemon: 1
+2025-07-23T13:04:16.913561+05:30 lokeshwar-VirtualBox gnome-keyring-daemon[2652]: The PKCS#11 component was already initialized
+2025-07-23T13:04:16.917715+05:30 lokeshwar-VirtualBox gnome-keyring-daemon[2858]: discover_other_daemon: 1
+2025-07-23T13:04:16.962381+05:30 lokeshwar-VirtualBox gnome-keyring-daemon[2863]: discover_other_daemon: 1
+2025-07-23T13:04:32.745084+05:30 lokeshwar-VirtualBox polkitd[691]: Registered Authentication Agent for unix-session:2 (system bus name :1.78 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-07-23T13:04:44.431125+05:30 lokeshwar-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2025-07-23T13:04:44.521766+05:30 lokeshwar-VirtualBox systemd-logind[713]: Session c1 logged out. Waiting for processes to exit.
+2025-07-23T13:04:44.525846+05:30 lokeshwar-VirtualBox polkitd[691]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.40, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2025-07-23T13:04:44.569818+05:30 lokeshwar-VirtualBox systemd-logind[713]: Removed session c1.
+2025-07-23T13:04:55.183520+05:30 lokeshwar-VirtualBox (sd-pam): pam_unix(systemd-user:session): session closed for user gdm
+2025-07-23T13:05:01.844716+05:30 lokeshwar-VirtualBox CRON[3798]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-23T13:05:01.897158+05:30 lokeshwar-VirtualBox CRON[3798]: pam_unix(cron:session): session closed for user root
+2025-07-23T13:08:15.057764+05:30 lokeshwar-VirtualBox systemd-logind[719]: New seat seat0.
+2025-07-23T13:08:15.057770+05:30 lokeshwar-VirtualBox systemd-logind[719]: Watching system buttons on /dev/input/event0 (Power Button)
+2025-07-23T13:08:15.057775+05:30 lokeshwar-VirtualBox systemd-logind[719]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2025-07-23T13:08:15.057780+05:30 lokeshwar-VirtualBox systemd-logind[719]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2025-07-23T13:08:14.957130+05:30 lokeshwar-VirtualBox polkitd[684]: Loading rules from directory /etc/polkit-1/rules.d
+2025-07-23T13:08:14.988161+05:30 lokeshwar-VirtualBox polkitd[684]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-07-23T13:08:15.231446+05:30 lokeshwar-VirtualBox polkitd[684]: Finished loading, compiling and executing 16 rules
+2025-07-23T13:08:15.249099+05:30 lokeshwar-VirtualBox polkitd[684]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2025-07-23T13:09:01.414732+05:30 lokeshwar-VirtualBox useradd[1079]: failed adding user 'vboxadd', exit code: 9
+2025-07-23T13:09:01.431472+05:30 lokeshwar-VirtualBox useradd[1080]: failed adding user 'vboxadd', exit code: 9
+2025-07-23T13:09:08.011204+05:30 lokeshwar-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2025-07-23T13:09:08.061752+05:30 lokeshwar-VirtualBox systemd-logind[719]: New session c1 of user gdm.
+2025-07-23T13:09:08.230309+05:30 lokeshwar-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2025-07-23T13:09:20.328810+05:30 lokeshwar-VirtualBox polkitd[684]: Registered Authentication Agent for unix-session:c1 (system bus name :1.39 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-07-23T13:09:38.091348+05:30 lokeshwar-VirtualBox gdm-password]: gkr-pam: unable to locate daemon control file
+2025-07-23T13:09:38.091531+05:30 lokeshwar-VirtualBox gdm-password]: gkr-pam: stashed password to try later in open session
+2025-07-23T13:09:38.117618+05:30 lokeshwar-VirtualBox gdm-password]: pam_unix(gdm-password:session): session opened for user lokeshwar(uid=1000) by lokeshwar(uid=0)
+2025-07-23T13:09:38.146315+05:30 lokeshwar-VirtualBox systemd-logind[719]: New session 2 of user lokeshwar.
+2025-07-23T13:09:38.359928+05:30 lokeshwar-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user lokeshwar(uid=1000) by lokeshwar(uid=0)
+2025-07-23T13:09:39.978887+05:30 lokeshwar-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2025-07-23T13:09:42.111757+05:30 lokeshwar-VirtualBox gnome-keyring-daemon[2859]: discover_other_daemon: 1
+2025-07-23T13:09:42.116957+05:30 lokeshwar-VirtualBox gnome-keyring-daemon[2653]: The PKCS#11 component was already initialized
+2025-07-23T13:09:42.123091+05:30 lokeshwar-VirtualBox gnome-keyring-daemon[2860]: discover_other_daemon: 1
+2025-07-23T13:09:42.142022+05:30 lokeshwar-VirtualBox gnome-keyring-daemon[2653]: The Secret Service was already initialized
+2025-07-23T13:09:42.142564+05:30 lokeshwar-VirtualBox gnome-keyring-daemon[2863]: discover_other_daemon: 1
+2025-07-23T13:09:52.147997+05:30 lokeshwar-VirtualBox polkitd[684]: Registered Authentication Agent for unix-session:2 (system bus name :1.77 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-07-23T13:09:56.737232+05:30 lokeshwar-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2025-07-23T13:09:56.806762+05:30 lokeshwar-VirtualBox systemd-logind[719]: Session c1 logged out. Waiting for processes to exit.
+2025-07-23T13:09:56.921511+05:30 lokeshwar-VirtualBox polkitd[684]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.39, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2025-07-23T13:09:56.962141+05:30 lokeshwar-VirtualBox systemd-logind[719]: Removed session c1.
+2025-07-23T13:15:01.531839+05:30 lokeshwar-VirtualBox CRON[3793]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-23T13:15:01.549290+05:30 lokeshwar-VirtualBox CRON[3793]: pam_unix(cron:session): session closed for user root
+2025-07-25T15:55:44.625831+05:30 lokeshwar-VirtualBox systemd-logind[718]: New seat seat0.
+2025-07-25T15:55:44.626009+05:30 lokeshwar-VirtualBox systemd-logind[718]: Watching system buttons on /dev/input/event0 (Power Button)
+2025-07-25T15:55:44.626018+05:30 lokeshwar-VirtualBox systemd-logind[718]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2025-07-25T15:55:44.626029+05:30 lokeshwar-VirtualBox systemd-logind[718]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2025-07-25T15:55:44.626322+05:30 lokeshwar-VirtualBox polkitd[684]: Loading rules from directory /etc/polkit-1/rules.d
+2025-07-25T15:55:44.646028+05:30 lokeshwar-VirtualBox polkitd[684]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-07-25T15:55:44.023279+05:30 lokeshwar-VirtualBox polkitd[684]: Finished loading, compiling and executing 16 rules
+2025-07-25T15:55:44.053560+05:30 lokeshwar-VirtualBox polkitd[684]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2025-07-25T15:56:45.774415+05:30 lokeshwar-VirtualBox useradd[1090]: failed adding user 'vboxadd', exit code: 9
+2025-07-25T15:56:45.812455+05:30 lokeshwar-VirtualBox useradd[1091]: failed adding user 'vboxadd', exit code: 9
+2025-07-25T15:56:54.606193+05:30 lokeshwar-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2025-07-25T15:56:54.685348+05:30 lokeshwar-VirtualBox systemd-logind[718]: New session c1 of user gdm.
+2025-07-25T15:56:54.793620+05:30 lokeshwar-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2025-07-25T15:57:08.374293+05:30 lokeshwar-VirtualBox polkitd[684]: Registered Authentication Agent for unix-session:c1 (system bus name :1.40 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-07-25T15:57:22.984778+05:30 lokeshwar-VirtualBox gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=lokeshwar
+2025-07-25T15:57:47.318162+05:30 lokeshwar-VirtualBox gdm-password]: gkr-pam: unable to locate daemon control file
+2025-07-25T15:57:47.318482+05:30 lokeshwar-VirtualBox gdm-password]: gkr-pam: stashed password to try later in open session
+2025-07-25T15:57:47.358118+05:30 lokeshwar-VirtualBox gdm-password]: pam_unix(gdm-password:session): session opened for user lokeshwar(uid=1000) by lokeshwar(uid=0)
+2025-07-25T15:57:47.465974+05:30 lokeshwar-VirtualBox systemd-logind[718]: New session 2 of user lokeshwar.
+2025-07-25T15:57:47.717700+05:30 lokeshwar-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user lokeshwar(uid=1000) by lokeshwar(uid=0)
+2025-07-25T15:57:49.688415+05:30 lokeshwar-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2025-07-25T15:57:52.348271+05:30 lokeshwar-VirtualBox gnome-keyring-daemon[2661]: The PKCS#11 component was already initialized
+2025-07-25T15:57:52.348701+05:30 lokeshwar-VirtualBox gnome-keyring-daemon[2873]: discover_other_daemon: 1
+2025-07-25T15:57:52.400236+05:30 lokeshwar-VirtualBox gnome-keyring-daemon[2878]: discover_other_daemon: 1
+2025-07-25T15:57:52.455053+05:30 lokeshwar-VirtualBox gnome-keyring-daemon[2661]: The Secret Service was already initialized
+2025-07-25T15:57:52.456846+05:30 lokeshwar-VirtualBox gnome-keyring-daemon[2884]: discover_other_daemon: 1
+2025-07-25T15:58:03.662154+05:30 lokeshwar-VirtualBox polkitd[684]: Registered Authentication Agent for unix-session:2 (system bus name :1.79 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-07-25T15:58:09.341576+05:30 lokeshwar-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2025-07-25T15:58:09.490296+05:30 lokeshwar-VirtualBox systemd-logind[718]: Session c1 logged out. Waiting for processes to exit.
+2025-07-25T15:58:09.744864+05:30 lokeshwar-VirtualBox polkitd[684]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.40, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2025-07-25T15:58:09.773920+05:30 lokeshwar-VirtualBox systemd-logind[718]: Removed session c1.
+2025-07-25T15:58:20.253894+05:30 lokeshwar-VirtualBox (sd-pam): pam_unix(systemd-user:session): session closed for user gdm
+2025-07-29T15:05:23.295384+05:30 lokeshwar-VirtualBox systemd-logind[722]: New seat seat0.
+2025-07-29T15:05:23.295390+05:30 lokeshwar-VirtualBox systemd-logind[722]: Watching system buttons on /dev/input/event0 (Power Button)
+2025-07-29T15:05:23.295396+05:30 lokeshwar-VirtualBox systemd-logind[722]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2025-07-29T15:05:23.295422+05:30 lokeshwar-VirtualBox systemd-logind[722]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2025-07-29T15:05:22.283821+05:30 lokeshwar-VirtualBox polkitd[685]: Loading rules from directory /etc/polkit-1/rules.d
+2025-07-29T15:05:22.347720+05:30 lokeshwar-VirtualBox polkitd[685]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-07-29T15:05:23.136924+05:30 lokeshwar-VirtualBox polkitd[685]: Finished loading, compiling and executing 16 rules
+2025-07-29T15:05:23.259173+05:30 lokeshwar-VirtualBox polkitd[685]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2025-07-29T15:07:22.097863+05:30 lokeshwar-VirtualBox useradd[1107]: failed adding user 'vboxadd', exit code: 9
+2025-07-29T15:07:22.117822+05:30 lokeshwar-VirtualBox useradd[1108]: failed adding user 'vboxadd', exit code: 9
+2025-07-29T15:07:34.261895+05:30 lokeshwar-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2025-07-29T15:07:34.372556+05:30 lokeshwar-VirtualBox systemd-logind[722]: New session c1 of user gdm.
+2025-07-29T15:07:34.503262+05:30 lokeshwar-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2025-07-29T15:07:57.205308+05:30 lokeshwar-VirtualBox polkitd[685]: Registered Authentication Agent for unix-session:c1 (system bus name :1.42 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-07-29T15:08:42.842493+05:30 lokeshwar-VirtualBox gdm-password]: gkr-pam: unable to locate daemon control file
+2025-07-29T15:08:42.843256+05:30 lokeshwar-VirtualBox gdm-password]: gkr-pam: stashed password to try later in open session
+2025-07-29T15:08:43.043200+05:30 lokeshwar-VirtualBox gdm-password]: pam_unix(gdm-password:session): session opened for user lokeshwar(uid=1000) by lokeshwar(uid=0)
+2025-07-29T15:08:43.105882+05:30 lokeshwar-VirtualBox systemd-logind[722]: New session 2 of user lokeshwar.
+2025-07-29T15:08:43.363875+05:30 lokeshwar-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user lokeshwar(uid=1000) by lokeshwar(uid=0)
+2025-07-29T15:08:45.462901+05:30 lokeshwar-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2025-07-29T15:08:48.426919+05:30 lokeshwar-VirtualBox gnome-keyring-daemon[2703]: The Secret Service was already initialized
+2025-07-29T15:08:48.454914+05:30 lokeshwar-VirtualBox gnome-keyring-daemon[2903]: discover_other_daemon: 1
+2025-07-29T15:08:48.507248+05:30 lokeshwar-VirtualBox gnome-keyring-daemon[2703]: The PKCS#11 component was already initialized
+2025-07-29T15:08:48.509108+05:30 lokeshwar-VirtualBox gnome-keyring-daemon[2908]: discover_other_daemon: 1
+2025-07-29T15:08:48.531445+05:30 lokeshwar-VirtualBox gnome-keyring-daemon[2910]: discover_other_daemon: 1
+2025-07-29T15:09:01.413479+05:30 lokeshwar-VirtualBox polkitd[685]: Registered Authentication Agent for unix-session:2 (system bus name :1.80 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-07-29T15:09:18.103960+05:30 lokeshwar-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2025-07-29T15:09:18.915575+05:30 lokeshwar-VirtualBox polkitd[685]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.42, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2025-07-29T15:09:18.971981+05:30 lokeshwar-VirtualBox systemd-logind[722]: Session c1 logged out. Waiting for processes to exit.
+2025-07-29T15:09:19.594824+05:30 lokeshwar-VirtualBox systemd-logind[722]: Removed session c1.
+2025-07-29T15:15:01.116032+05:30 lokeshwar-VirtualBox CRON[3888]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-29T15:15:01.182183+05:30 lokeshwar-VirtualBox CRON[3888]: pam_unix(cron:session): session closed for user root
+2025-07-29T15:17:01.386338+05:30 lokeshwar-VirtualBox CRON[3897]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-29T15:17:01.420176+05:30 lokeshwar-VirtualBox CRON[3897]: pam_unix(cron:session): session closed for user root
+2025-07-29T15:25:01.475906+05:30 lokeshwar-VirtualBox CRON[3929]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-29T15:25:01.537700+05:30 lokeshwar-VirtualBox CRON[3929]: pam_unix(cron:session): session closed for user root
+2025-07-29T15:25:11.781367+05:30 lokeshwar-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2025-07-29T15:26:59.061939+05:30 lokeshwar-VirtualBox dbus-daemon[666]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2025-07-29T15:29:57.926567+05:30 lokeshwar-VirtualBox sudo: lokeshwar : TTY=pts/0 ; PWD=/home/lokeshwar ; USER=root ; COMMAND=/usr/bin/apt update
+2025-07-29T15:29:57.929262+05:30 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lokeshwar(uid=1000)
+2025-07-29T15:30:01.622254+05:30 lokeshwar-VirtualBox CRON[4136]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-29T15:30:01.697125+05:30 lokeshwar-VirtualBox CRON[4136]: pam_unix(cron:session): session closed for user root
+2025-07-29T15:31:10.910494+05:30 lokeshwar-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by lokeshwar(uid=1000)
+2025-07-29T15:31:10.924228+05:30 lokeshwar-VirtualBox pkexec[4429]: lokeshwar: Executing command [USER=root] [TTY=unknown] [CWD=/home/lokeshwar] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-07-29T15:31:15.384427+05:30 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-07-29T15:31:39.847638+05:30 lokeshwar-VirtualBox sudo: lokeshwar : TTY=pts/0 ; PWD=/home/lokeshwar ; USER=root ; COMMAND=/usr/bin/apt install rsyslog auditd -y
+2025-07-29T15:31:39.853429+05:30 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lokeshwar(uid=1000)
+2025-07-29T15:32:18.067232+05:30 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-07-29T15:32:46.071211+05:30 lokeshwar-VirtualBox sudo: lokeshwar : TTY=pts/0 ; PWD=/home/lokeshwar ; USER=root ; COMMAND=/usr/bin/systemctl enable --now rsyslog auditd
+2025-07-29T15:32:46.083114+05:30 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lokeshwar(uid=1000)
+2025-07-29T15:32:49.514057+05:30 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-07-29T15:33:20.845322+05:30 lokeshwar-VirtualBox sudo: lokeshwar : TTY=pts/0 ; PWD=/home/lokeshwar ; USER=root ; COMMAND=/usr/bin/systemctl status rsyslog
+2025-07-29T15:33:20.850152+05:30 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lokeshwar(uid=1000)
+2025-07-29T15:33:27.723051+05:30 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-07-29T15:34:00.233820+05:30 lokeshwar-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by lokeshwar(uid=1000)
+2025-07-29T15:34:00.243145+05:30 lokeshwar-VirtualBox pkexec[5478]: lokeshwar: Executing command [USER=root] [TTY=unknown] [CWD=/home/lokeshwar] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-07-29T15:34:05.365453+05:30 lokeshwar-VirtualBox sudo: lokeshwar : TTY=pts/0 ; PWD=/home/lokeshwar ; USER=root ; COMMAND=/usr/bin/systemctl status auditd
+2025-07-29T15:34:05.374987+05:30 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lokeshwar(uid=1000)
+2025-07-29T15:34:05.416040+05:30 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-07-29T15:35:01.746749+05:30 lokeshwar-VirtualBox CRON[5495]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-29T15:35:01.790540+05:30 lokeshwar-VirtualBox CRON[5495]: pam_unix(cron:session): session closed for user root
+2025-07-30T12:10:07.415686+05:30 lokeshwar-VirtualBox systemd-logind[760]: New seat seat0.
+2025-07-30T12:10:07.415812+05:30 lokeshwar-VirtualBox systemd-logind[760]: Watching system buttons on /dev/input/event0 (Power Button)
+2025-07-30T12:10:07.415827+05:30 lokeshwar-VirtualBox systemd-logind[760]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2025-07-30T12:10:07.415945+05:30 lokeshwar-VirtualBox systemd-logind[760]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2025-07-30T12:10:07.111482+05:30 lokeshwar-VirtualBox polkitd[720]: Loading rules from directory /etc/polkit-1/rules.d
+2025-07-30T12:10:07.115061+05:30 lokeshwar-VirtualBox polkitd[720]: Loading rules from directory /usr/share/polkit-1/rules.d
+2025-07-30T12:10:07.427063+05:30 lokeshwar-VirtualBox polkitd[720]: Finished loading, compiling and executing 16 rules
+2025-07-30T12:10:07.427501+05:30 lokeshwar-VirtualBox polkitd[720]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2025-07-30T12:10:50.451142+05:30 lokeshwar-VirtualBox useradd[1159]: failed adding user 'vboxadd', exit code: 9
+2025-07-30T12:10:50.471670+05:30 lokeshwar-VirtualBox useradd[1160]: failed adding user 'vboxadd', exit code: 9
+2025-07-30T12:10:57.820037+05:30 lokeshwar-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2025-07-30T12:10:57.917407+05:30 lokeshwar-VirtualBox systemd-logind[760]: New session c1 of user gdm.
+2025-07-30T12:10:58.036354+05:30 lokeshwar-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2025-07-30T12:11:13.062363+05:30 lokeshwar-VirtualBox polkitd[720]: Registered Authentication Agent for unix-session:c1 (system bus name :1.39 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-07-30T12:11:34.136631+05:30 lokeshwar-VirtualBox gdm-password]: gkr-pam: unable to locate daemon control file
+2025-07-30T12:11:34.140333+05:30 lokeshwar-VirtualBox gdm-password]: gkr-pam: stashed password to try later in open session
+2025-07-30T12:11:34.196240+05:30 lokeshwar-VirtualBox gdm-password]: pam_unix(gdm-password:session): session opened for user lokeshwar(uid=1000) by lokeshwar(uid=0)
+2025-07-30T12:11:34.287890+05:30 lokeshwar-VirtualBox systemd-logind[760]: New session 2 of user lokeshwar.
+2025-07-30T12:11:34.594820+05:30 lokeshwar-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user lokeshwar(uid=1000) by lokeshwar(uid=0)
+2025-07-30T12:11:37.267360+05:30 lokeshwar-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2025-07-30T12:11:40.495007+05:30 lokeshwar-VirtualBox gnome-keyring-daemon[2724]: The PKCS#11 component was already initialized
+2025-07-30T12:11:40.509169+05:30 lokeshwar-VirtualBox gnome-keyring-daemon[2932]: discover_other_daemon: 1
+2025-07-30T12:11:40.542113+05:30 lokeshwar-VirtualBox gnome-keyring-daemon[2724]: The Secret Service was already initialized
+2025-07-30T12:11:40.550154+05:30 lokeshwar-VirtualBox gnome-keyring-daemon[2937]: discover_other_daemon: 1
+2025-07-30T12:11:40.643485+05:30 lokeshwar-VirtualBox gnome-keyring-daemon[2942]: discover_other_daemon: 1
+2025-07-30T12:11:52.947931+05:30 lokeshwar-VirtualBox polkitd[720]: Registered Authentication Agent for unix-session:2 (system bus name :1.77 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2025-07-30T12:11:57.988969+05:30 lokeshwar-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2025-07-30T12:11:58.050266+05:30 lokeshwar-VirtualBox systemd-logind[760]: Session c1 logged out. Waiting for processes to exit.
+2025-07-30T12:11:58.192132+05:30 lokeshwar-VirtualBox polkitd[720]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.39, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2025-07-30T12:11:58.220951+05:30 lokeshwar-VirtualBox systemd-logind[760]: Removed session c1.
+2025-07-30T12:12:56.901331+05:30 lokeshwar-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by lokeshwar(uid=1000)
+2025-07-30T12:12:56.926144+05:30 lokeshwar-VirtualBox pkexec[3876]: lokeshwar: Executing command [USER=root] [TTY=unknown] [CWD=/home/lokeshwar] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-07-30T12:14:04.185602+05:30 lokeshwar-VirtualBox sudo: lokeshwar : TTY=pts/0 ; PWD=/home/lokeshwar ; USER=root ; COMMAND=/usr/bin/systemctl enable --now ssh rsyslog auditd
+2025-07-30T12:14:04.189400+05:30 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lokeshwar(uid=1000)
+2025-07-30T12:14:07.271457+05:30 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-07-30T12:14:55.961223+05:30 lokeshwar-VirtualBox sudo: lokeshwar : TTY=pts/0 ; PWD=/home/lokeshwar ; USER=root ; COMMAND=/usr/bin/systemctl enable --now ssh rsyslog auditd
+2025-07-30T12:14:55.993681+05:30 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lokeshwar(uid=1000)
+2025-07-30T12:14:59.224724+05:30 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-07-30T12:15:01.678543+05:30 lokeshwar-VirtualBox CRON[4448]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-30T12:15:01.700560+05:30 lokeshwar-VirtualBox CRON[4448]: pam_unix(cron:session): session closed for user root
+2025-07-30T12:17:02.470154+05:30 lokeshwar-VirtualBox CRON[4461]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-30T12:17:05.089694+05:30 lokeshwar-VirtualBox CRON[4461]: pam_unix(cron:session): session closed for user root
+2025-07-30T12:18:59.418475+05:30 lokeshwar-VirtualBox sudo: lokeshwar : TTY=pts/0 ; PWD=/home/lokeshwar ; USER=root ; COMMAND=/usr/bin/apt update
+2025-07-30T12:18:59.424347+05:30 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lokeshwar(uid=1000)
+2025-07-30T12:19:49.627673+05:30 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-07-30T12:21:17.262037+05:30 lokeshwar-VirtualBox sudo: lokeshwar : TTY=pts/0 ; PWD=/home/lokeshwar ; USER=root ; COMMAND=/usr/bin/apt install -y openssh-server
+2025-07-30T12:21:17.292851+05:30 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lokeshwar(uid=1000)
+2025-07-30T12:21:58.613866+05:30 lokeshwar-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by lokeshwar(uid=1000)
+2025-07-30T12:21:58.643856+05:30 lokeshwar-VirtualBox pkexec[5058]: lokeshwar: Executing command [USER=root] [TTY=unknown] [CWD=/home/lokeshwar] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-07-30T12:21:59.100706+05:30 lokeshwar-VirtualBox useradd[5084]: new user: name=sshd, UID=122, GID=65534, home=/run/sshd, shell=/usr/sbin/nologin, from=none
+2025-07-30T12:22:22.001716+05:30 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-07-30T12:22:41.227047+05:30 lokeshwar-VirtualBox dbus-daemon[699]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2025-07-30T12:23:28.381556+05:30 lokeshwar-VirtualBox sudo: lokeshwar : TTY=pts/0 ; PWD=/home/lokeshwar ; USER=root ; COMMAND=/usr/bin/apt install -y openssh-server
+2025-07-30T12:23:28.393381+05:30 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lokeshwar(uid=1000)
+2025-07-30T12:23:31.822504+05:30 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-07-30T12:23:53.884287+05:30 lokeshwar-VirtualBox sudo: lokeshwar : TTY=pts/0 ; PWD=/home/lokeshwar ; USER=root ; COMMAND=/usr/bin/systemctl enable --now rsyslog auditd
+2025-07-30T12:23:53.892415+05:30 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lokeshwar(uid=1000)
+2025-07-30T12:23:58.111434+05:30 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-07-30T12:24:17.852260+05:30 lokeshwar-VirtualBox sudo: lokeshwar : TTY=pts/0 ; PWD=/home/lokeshwar ; USER=root ; COMMAND=/usr/bin/systemctl status rsyslog
+2025-07-30T12:24:17.856982+05:30 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lokeshwar(uid=1000)
+2025-07-30T12:24:31.079377+05:30 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-07-30T12:24:50.815706+05:30 lokeshwar-VirtualBox sudo: lokeshwar : TTY=pts/0 ; PWD=/home/lokeshwar ; USER=root ; COMMAND=/usr/bin/systemctl status auditd
+2025-07-30T12:24:50.825227+05:30 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lokeshwar(uid=1000)
+2025-07-30T12:24:50.938939+05:30 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-07-30T12:24:53.010665+05:30 lokeshwar-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by lokeshwar(uid=1000)
+2025-07-30T12:24:53.016637+05:30 lokeshwar-VirtualBox pkexec[6307]: lokeshwar: Executing command [USER=root] [TTY=unknown] [CWD=/home/lokeshwar] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2025-07-30T12:25:01.453102+05:30 lokeshwar-VirtualBox CRON[6316]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-30T12:25:01.474333+05:30 lokeshwar-VirtualBox CRON[6316]: pam_unix(cron:session): session closed for user root
+2025-07-30T12:25:49.763879+05:30 lokeshwar-VirtualBox sudo: lokeshwar : TTY=pts/0 ; PWD=/home/lokeshwar ; USER=root ; COMMAND=/usr/sbin/useradd -m demo
+2025-07-30T12:25:49.789130+05:30 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lokeshwar(uid=1000)
+2025-07-30T12:25:49.920036+05:30 lokeshwar-VirtualBox useradd[6324]: new group: name=demo, GID=1002
+2025-07-30T12:25:49.932590+05:30 lokeshwar-VirtualBox useradd[6324]: new user: name=demo, UID=1002, GID=1002, home=/home/demo, shell=/bin/sh, from=/dev/pts/1
+2025-07-30T12:25:50.118345+05:30 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-07-30T12:26:24.216122+05:30 lokeshwar-VirtualBox sudo: lokeshwar : TTY=pts/0 ; PWD=/home/lokeshwar ; USER=root ; COMMAND=/usr/sbin/chpasswd
+2025-07-30T12:26:24.227219+05:30 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lokeshwar(uid=1000)
+2025-07-30T12:26:24.408821+05:30 lokeshwar-VirtualBox chpasswd[6336]: pam_unix(chpasswd:chauthtok): password changed for demo
+2025-07-30T12:26:24.411036+05:30 lokeshwar-VirtualBox chpasswd[6336]: gkr-pam: couldn't update the login keyring password: no old password was entered
+2025-07-30T12:26:24.420933+05:30 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-07-30T12:30:01.490680+05:30 lokeshwar-VirtualBox CRON[6345]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-30T12:30:01.502201+05:30 lokeshwar-VirtualBox CRON[6345]: pam_unix(cron:session): session closed for user root
+2025-07-30T12:34:01.609463+05:30 lokeshwar-VirtualBox sshd[6357]: Server listening on 0.0.0.0 port 22.
+2025-07-30T12:34:01.617476+05:30 lokeshwar-VirtualBox sshd[6357]: Server listening on :: port 22.
+2025-07-30T12:35:01.742947+05:30 lokeshwar-VirtualBox CRON[6373]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-30T12:35:01.881451+05:30 lokeshwar-VirtualBox CRON[6373]: pam_unix(cron:session): session closed for user root
+2025-07-30T12:37:06.784678+05:30 lokeshwar-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2025-07-30T12:37:35.154659+05:30 lokeshwar-VirtualBox sshd[6491]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.237.238  user=demo
+2025-07-30T12:37:37.149952+05:30 lokeshwar-VirtualBox sshd[6491]: Failed password for demo from 192.168.237.238 port 52982 ssh2
+2025-07-30T12:37:42.326992+05:30 lokeshwar-VirtualBox sshd[6491]: Failed password for demo from 192.168.237.238 port 52982 ssh2
+2025-07-30T12:37:57.557234+05:30 lokeshwar-VirtualBox sshd[6491]: Accepted password for demo from 192.168.237.238 port 52982 ssh2
+2025-07-30T12:37:57.570799+05:30 lokeshwar-VirtualBox sshd[6491]: pam_unix(sshd:session): session opened for user demo(uid=1002) by demo(uid=0)
+2025-07-30T12:37:57.656926+05:30 lokeshwar-VirtualBox systemd-logind[760]: New session 9 of user demo.
+2025-07-30T12:37:57.758736+05:30 lokeshwar-VirtualBox (systemd): pam_unix(systemd-user:session): session opened for user demo(uid=1002) by demo(uid=0)
+2025-07-30T12:40:11.155165+05:30 lokeshwar-VirtualBox sudo:     demo : user NOT in sudoers ; TTY=pts/1 ; PWD=/home/demo ; USER=root ; COMMAND=/usr/bin/touch /srv/secrets.txt
+2025-07-30T12:43:09.836715+05:30 lokeshwar-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2025-07-30T12:43:28.186215+05:30 lokeshwar-VirtualBox sudo: lokeshwar : TTY=pts/0 ; PWD=/home/lokeshwar ; USER=root ; COMMAND=/usr/bin/touch /srv/secrets.txt
+2025-07-30T12:43:28.188200+05:30 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lokeshwar(uid=1000)
+2025-07-30T12:43:28.208068+05:30 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-07-30T12:44:07.631531+05:30 lokeshwar-VirtualBox sudo: lokeshwar : TTY=pts/0 ; PWD=/home/lokeshwar ; USER=root ; COMMAND=/usr/bin/tee -a /srv/secrets.txt
+2025-07-30T12:44:07.640102+05:30 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lokeshwar(uid=1000)
+2025-07-30T12:44:07.673024+05:30 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+2025-07-30T12:45:01.068394+05:30 lokeshwar-VirtualBox CRON[6960]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-07-30T12:45:01.100581+05:30 lokeshwar-VirtualBox CRON[6960]: pam_unix(cron:session): session closed for user root
+2025-07-30T12:46:44.188217+05:30 lokeshwar-VirtualBox sshd[6633]: Received disconnect from 192.168.237.238 port 52982:11: disconnected by user
+2025-07-30T12:46:44.265793+05:30 lokeshwar-VirtualBox sshd[6633]: Disconnected from user demo 192.168.237.238 port 52982
+2025-07-30T12:46:44.266994+05:30 lokeshwar-VirtualBox sshd[6491]: pam_unix(sshd:session): session closed for user demo
+2025-07-30T12:46:44.276159+05:30 lokeshwar-VirtualBox systemd-logind[760]: Session 9 logged out. Waiting for processes to exit.
+2025-07-30T12:46:44.296489+05:30 lokeshwar-VirtualBox systemd-logind[760]: Removed session 9.
+2025-07-30T12:49:44.560058+05:30 lokeshwar-VirtualBox gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname=lokeshwar uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=lokeshwar
+2025-07-30T12:49:57.239895+05:30 lokeshwar-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+2025-07-30T12:51:20.894725+05:30 lokeshwar-VirtualBox sudo: lokeshwar : TTY=pts/0 ; PWD=/home/lokeshwar ; USER=root ; COMMAND=/usr/bin/cp /var/log/auth.log /home/lokeshwar/CyberSOC-Intrusion-Sim/logs/lokeshwar-VirtualBox_auth.log
+2025-07-30T12:51:20.907434+05:30 lokeshwar-VirtualBox sudo: pam_unix(sudo:session): session opened for user root(uid=0) by lokeshwar(uid=1000)
